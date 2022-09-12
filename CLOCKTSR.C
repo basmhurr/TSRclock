@@ -82,8 +82,8 @@ int main(int argc, char *argv[])
 {
       if(argc <= 1)
       {
-	    printf("Syntax: Timer -I (for Install)\n");
-	    printf("Syntax: Timer -U (for Uninstall)\n");
+	    printf("Syntax: CLOCKTSR -I (for Install)\n");
+	    printf("Syntax: CLOCKTSR -U (for Uninstall)\n");
 	    return 0;
       }
       if(argv[1][1] == 'I' || argv[1][1] == 'i')
